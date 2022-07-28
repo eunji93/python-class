@@ -31,4 +31,15 @@
 # Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 # remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 # To https://github.com/eunji93/python-class.git
-#   915315a..f11aaf5  master -> master                      <- 마지막 master -> master 확인되면 됨
+#   915315a..f11aaf5  master -> master                      <- 마지막 'master -> master' 확인되면 됨
+
+# 깃허브에서 파일 vscode에 옮기는 방법 -> 새로운 파일에 git bash에서 코드 입력
+# User@DESKTOP-M7O6P7G MINGW64 /c/python
+# $ git clone https://github.com/eunji93/python-class.git  <- git clone에 열고자하는 코드 복사(깃허브 사이트에서 내코드 따는것)
+# Cloning into 'python-class'...
+# remote: Enumerating objects: 47, done.
+# remote: Counting objects: 100% (47/47), done.
+# remote: Compressing objects: 100% (42/42), done.
+# remote: Total 47 (delta 5), reused 46 (delta 4), pack-reused 0Receiving objects:  57% (27/47)
+# Receiving objects: 100% (47/47), 31.39 KiB | 3.92 MiB/s, done.
+# Resolving deltas: 100% (5/5), done.
