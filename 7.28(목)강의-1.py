@@ -1,16 +1,16 @@
 # 내용이 달라지거나 추가할때는 아래 작업 거치면 github에 변경됨
 # User@DESKTOP-M7O6P7G MINGW64 /c/python ej (master)
-# $ git init      
+# $ git init        <- 변경할래
 # Reinitialized existing Git repository in C:/python ej/.git/
 
 # User@DESKTOP-M7O6P7G MINGW64 /c/python ej (master)
-# $ git add . 
+# $ git add .    <- 추가되거나.새로운거
 
 # User@DESKTOP-M7O6P7G MINGW64 /c/python ej (master)
-# $ git status
+# $ git status      
 
 # User@DESKTOP-M7O6P7G MINGW64 /c/python ej (master)
-# $ git commit -m "second commit"                 <- 푸쉬할때 추가 절차
+# $ git commit -m "second commit"                 <- 푸쉬할때 내가 어떤거에 저장할껀지
 
 # User@DESKTOP-M7O6P7G MINGW64 /c/python ej (master)
 # $ git remote add origin https://github.com/eunji93/python-class.git  <- 오류남/ 이미 연결된게 있어서
