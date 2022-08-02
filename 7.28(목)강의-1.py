@@ -43,3 +43,17 @@
 # remote: Total 47 (delta 5), reused 46 (delta 4), pack-reused 0Receiving objects:  57% (27/47)
 # Receiving objects: 100% (47/47), 31.39 KiB | 3.92 MiB/s, done.
 # Resolving deltas: 100% (5/5), done.
+
+# 7.28(목) 강의2 
+# v1 == v2 : 변수 v1과 변수 v2가 참조하는 객체의 내용이 같냐?  (내용물만 같으면 됨)
+# v1 is v2 : 변수 v1과 변수 v2가 참조하는 객체는 동일한 객체냐? (동일한 대상이냐?)
+r1 = [1, 2, 3]
+r2 = [1, 2, 3]
+r1 == r2       # true
+r1 is r2       # false -> 참조값이 다름 id(r1) / id(r2) 주소값이 다름
+id(r1) / id(r2)
+
+# 복사하는 코드
+t1 = [1, 2, 3]
+t2 = t1
+t1 is t2     # true 
